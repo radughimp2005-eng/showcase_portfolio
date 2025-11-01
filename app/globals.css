@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: linear-gradient(90deg, #00885F 0%, #000000 53%, #000000 76%, #007B56 100%);
+  --background: linear-gradient(90deg, #00432f 0%, #000000 30%, #000000 80%, #003e2b 100%);
   --foreground: #0e0f0e;
   --header-background: linear-gradient(90deg,  #2FCA50 0%, #009D69 100%);
 }
@@ -20,54 +21,54 @@ body {
 }
 
 
-
 .container-header {
   display: flex;
   max-width: 957px;
   height: 92px;
-  margin:  70px 260px;
+  margin:  50px 260px;
   padding: 18px;
   background: var(--header-background);
   color: aliceblue;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-  position: relative;
-  z-index: 10;
 }
 
 .navlinks {
   display: flex;
-  gap: 30px;
-  margin-left: 60px;
+  gap: 20px;
   align-items: center;
-  font-size: 27px;
+  margin-left: auto; /* pushes navlinks to the right */
+  font-size: 30px;
   font-weight: 700;
   color: #343434;
+  font-family: var(--font-inter);
+}
+
+.navlinks li {
+  letter-spacing: -1px;
   position: relative;
+  list-style: none;
+  padding: 4px 8px;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* ✅ hover background color */
+.navlinks li:hover {
+  background: rgba(2, 39, 17, 0.15); /* subtle glowing green tint */
+  transform: translateY(-2px); /* small lift on hover */
+  border-radius: 20px;
+}
+
+/* Optional: make text stand out a bit more on hover */
+.navlinks li:hover a {
+  color: #00ff9d;
+}
+
+/* To remove link underline (Next.js Link renders <a>) */
+.navlinks a {
   text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.navlinks::after {
-  content: "";
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 0%;
-  height: 2px;
-  background-color: var(--accent);
-  transition: width 0.3s ease;
-}
-
-/* When hovered or active */
-.navlink:hover,
-.navlink.active {
-  color: var(--accent);
-}
-
-.navlink:hover::after,
-.navlink.active::after {
-  width: 100%;
+  color: inherit;
 }
 
 .radulogo {
@@ -91,6 +92,8 @@ body {
   -webkit-background-clip: text;   /* for Chrome, Safari */
   background-clip: text;           /* for Firefox (partially supported) */
   color: transparent;              /* hides solid color so gradient shows */
+  line-height: 1.1;
+  margin-top: 8px;
 }
 
 .home-button {
@@ -100,4 +103,87 @@ body {
   color: transparent;              /* hides solid color so gradient shows */
   font-weight: 700;
   font-size: 30;
+}
+
+.blackcircle {
+  width: 450px;
+  height: 450px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  z-index: -1;
+}
+
+.me {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 240px;
+  left: 230px;
+  z-index: 1;
+}
+
+.homepage {
+  display: flex;
+  justify-content: flex-end; /* moves the content to the right */
+  align-items: center;        /* centers it vertically (optional) */
+  height: 100vh;              /* full viewport height */
+  padding-right: 80px;        /* space from right edge */
+  margin-top: -100px;
+}
+
+.homepagetext {
+  max-width: 650px;
+  text-align: left; /* keep text readable */
+  color: rgb(255, 255, 255);
+}
+
+.frontend-title {
+  color: #00FFFF;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.homequote {
+  font-size: 50px;
+  font-family: var(--font-adamina);
+  line-height: 1.3;
+}
+
+.homequote2 {
+  font-family: var(--font-abhaya-libre);
+  font-size: 24px;
+  margin: 35px 0px;
+  max-width: 400px;
+}
+
+.gettoknowme-ig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+  background: linear-gradient(90deg, #4B6F4C 0%, #00332B 100%);
+  height: 70px;
+  width: 350px;
+  border-radius: 50px;
+  border: 1px solid white;
+  margin-left: -10px;
+}
+
+.gettoknowme-ig:hover {
+  background: linear-gradient(90deg, #2FCA50 0%, #009D69 100%);
+  cursor: pointer;
+  transform: translateY(-2px);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.gettoknowme-text {
+  font-size: 35px;
+  font-family: var(--font-abhaya-libre);
+  font-weight: 800;
+  color: white;
 }
