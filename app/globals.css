@@ -20,7 +20,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+header {
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  z-index: 1000;
+}
 .container-header {
   display: flex;
   max-width: 957px;
@@ -131,7 +136,7 @@ body {
   align-items: center;        /* centers it vertically (optional) */
   height: 100vh;              /* full viewport height */
   padding-right: 80px;        /* space from right edge */
-  margin-top: -100px;
+  margin-top: 100px;
 }
 
 .homepagetext {
@@ -186,4 +191,15 @@ body {
   font-family: var(--font-abhaya-libre);
   font-weight: 800;
   color: white;
+}
+
+.black-background {
+  position: absolute;
+  top: 720px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #020202;
+  z-index: -1;
+  border-top: 1px solid white;
 }
