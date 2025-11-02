@@ -9,7 +9,7 @@ export default function Projects() {
                     <article className="picoo-article">
                         <div className="row">
                             <h2 className="projects-title">Picoo</h2>
-                            <i className="fa-solid fa-arrow-right" style={{ color: "#ffffff", fontSize: "25px", transform: "scaleX(1.5)", display: "inline-block", marginTop: "18px" }}></i>
+                            <i className="fa-solid fa-arrow-right project-arrow"></i>
                         </div>
                         <p className="projects-description">A visually engaging and modern website demonstrating my <strong>DESIGN</strong> and <strong>FRONTEND</strong> skills</p>
                         <div className="row">
@@ -24,7 +24,7 @@ export default function Projects() {
                     <article className="owenbryce-article">
                         <div className="row">
                             <h2 className="projects-title">Owen Bryce</h2>
-                            <i className="fa-solid fa-arrow-right" style={{ color: "#ffffff", fontSize: "25px", transform: "scaleX(1.5)", display: "inline-block", marginTop: "18px" }}></i>
+                            <i className="fa-solid fa-arrow-right project-arrow"></i>
                         </div>
                         <p className="projects-description" className="projects-description2">A personal brand and modern website demonstranting my <strong>DESIGN</strong> skills</p>
                         <div className="row">
@@ -38,7 +38,7 @@ export default function Projects() {
                     <article className="movie-article">
                         <div className="row">
                             <h2 className="projects-title">Movie website</h2>
-                            <i className="fa-solid fa-arrow-right" style={{ color: "#ffffff", fontSize: "25px", transform: "scaleX(1.5)", display: "inline-block", marginTop: "18px" }}></i>
+                            <i className="fa-solid fa-arrow-right project-arrow"></i>
                         </div>
                         <p className="projects-description">A visually attractive creative agency website demonstranting my <strong>FRONTEND</strong> skills</p>
                         <div className="row">

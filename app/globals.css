@@ -317,8 +317,40 @@ header {
   border-radius: 20px;
   background-color: #021907;
   padding: 20px;
+  transition: all 0.4s ease;
+  cursor: pointer;
 }
 
+.project1:hover,
+.project2:hover,
+.project3:hover {
+  background-color: #004422; /* new hover color */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.project1:hover .picoo-article,
+.project2:hover .owenbryce-article,
+.project3:hover .movie-article {
+  background-color: #00311A; /* darker shade for contrast */
+  transition: background-color 0.4s ease;
+}
+
+.project-arrow {
+  color: #ffffff;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 18px;
+  transform: scaleX(1.3);
+  transition: transform 0.3s ease;
+}
+
+/* Rotate on hover */
+.project1:hover .project-arrow,
+.project2:hover .project-arrow,
+.project3:hover .project-arrow {
+  transform: scaleX(1.3) rotate(-45deg);
+}
 .picooimg,
 .owenbryceimg,
 .movieimg {
