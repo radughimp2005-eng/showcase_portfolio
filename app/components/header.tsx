@@ -10,12 +10,12 @@ export default function Header() {
               <div className="radughimp">
                 <p>RADU GHIMP</p>
               </div>
-              <div className="navlinks">
+              <nav className="navlinks">
                 <li className="home-button"><Link href="#">Home</Link></li>
                 <li><Link href="#">About me</Link></li>
                 <li><Link href="#">My work</Link></li>
                 <li><Link href="#">Start your project</Link></li>
-              </div>
+              </nav>
             </ul>
     </header>
   );

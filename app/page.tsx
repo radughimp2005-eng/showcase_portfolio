@@ -8,7 +8,7 @@ export default function Home() {
     <main>
         <div className="blackcircle"></div>
         <img src={hovered ? "/images/me2.png" : "/images/me.png"} alt="me" className="me"/>
-        <section className="homepage">
+        <aside className="homepage">
           <div className="homepagetext">
           <p className="frontend-title">FRONTEND DEVELOPER & DESIGNER</p>
           <h1 className="homequote">It is hard to fail but it is worse never to have tried to succeed</h1>
@@ -20,7 +20,7 @@ export default function Home() {
             <img src="/images/instagram.png" alt="Instagram" />
           </div>
         </div>
-        </section>
+        </aside>
     </main>
   );
 }

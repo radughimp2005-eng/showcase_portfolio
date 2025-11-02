@@ -1,9 +1,9 @@
-@import "tailwindcss";
+ @import "tailwindcss";
 
 
 :root {
   --background: linear-gradient(90deg, #00432f 0%, #000000 30%, #000000 80%, #003e2b 100%);
-  --foreground: #0e0f0e;
+  --foreground: #ffffff;
   --header-background: linear-gradient(90deg,  #2FCA50 0%, #009D69 100%);
 }
 
@@ -282,12 +282,114 @@ header {
  padding-bottom: 30px;
 }
 
+.black-background2 {
+  position: absolute;
+  top: 1415px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(68deg, #000000 0%, #033118 58%, #000000 100%);
+  z-index: -1;
+}
+
 .recent-work {
+  font-family: var(--font-alata);
+  font-weight: 400;
+  font-size: 90px;
+  color: white;
+  margin-inline: 500px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.three-projects {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project1,
+.project2,
+.project3 {
+  height: 460px;
+  width: 470px;
+  border-radius: 20px;
+  background-color: #021907;
+  padding: 20px;
+}
+
+.picooimg,
+.owenbryceimg,
+.movieimg {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.picoo-article,
+.owenbryce-article,
+.movie-article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: auto;
+  width: auto;
+  background-color: #001D10;
+  padding: 15px;
+  padding-top: 1px;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-title {
   font-family: var(--font-alata);
   font-weight: 400;
   font-size: 50px;
   color: white;
-  margin: 150px 0px 0px 300px;
+}
+
+.projects-description {
+  font-family: var(--font-alata);
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  max-width: 350px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.projects-description2 {
+  margin-left: 40px;
+  font-family: var(--font-alata);
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  max-width: 350px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+
+.row p {
+  font-family: var(--font-alata);
+  font-weight: 400;
+  font-size: 16px;
+  color: #00056B;
+  padding: 4px 18px;
+  width: auto;
+  height: auto;
+  background-color: #A5F9FF;
+  border-radius: 30px;
+   -webkit-text-stroke: .3px #00056B
 }
 
 
