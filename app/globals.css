@@ -424,5 +424,93 @@ header {
    -webkit-text-stroke: .3px #00056B
 }
 
+.black-background3 {
+  position: absolute;
+  top: 2110px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #020202;
+  z-index: -1;
+  border-top: 1px solid white;
+}
 
+.start-project-content {
+  display: flex;
+}
 
+.start-project-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 250px;
+  margin-left: 130px;
+  gap: 50px;
+}
+
+.start-project-title {
+  font-family: var(--font-alata);
+  font-weight: 800;
+  font-size: 60px;
+  color: white;
+  max-width: 500px;
+  text-align: center;
+}
+
+.start-project-description {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 24px;
+  color: #A0A0A0;
+  max-width: 500px;
+}
+
+.start-project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 200px;
+  margin-left: 160px;
+  padding: 20px;
+  padding-bottom: 10px;
+  width: 650px;
+  height: auto;
+  background-color: #000000;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.short-input {
+  height: fit-content;
+  background-color: #1E1E1E;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.long-input {
+  max-height: 100px;
+  background-color: #1E1E1E;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+label {
+  font-family: var(--font-alata);
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.get-started {
+  display: flex;
+  align-self: center;
+  font-size: 23px;
+  width: auto;
+  height: auto;
+  padding-inline: 100px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: #00B53C;
+  border-radius: 15px;
+  cursor: pointer;
+}

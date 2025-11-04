@@ -26,7 +26,7 @@ export default function Projects() {
                             <h2 className="projects-title">Owen Bryce</h2>
                             <i className="fa-solid fa-arrow-right project-arrow"></i>
                         </div>
-                        <p className="projects-description" className="projects-description2">A personal brand and modern website demonstranting my <strong>DESIGN</strong> skills</p>
+                        <p className="projects-description projects-description2">A personal brand and modern website demonstranting my <strong>DESIGN</strong> skills</p>
                         <div className="row">
                             <p>Figma</p>
                             <p>Adobe Illustrator</p>

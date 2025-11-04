@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/header";
 import About from "./about/page";
 import Projects from "./projects/page";
+import StartYourProject from "./start_your_project/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -71,6 +72,7 @@ export default function RootLayout({
         {children}
         <About />
         <Projects />
+        <StartYourProject />
       </body>
     </html>
   );
