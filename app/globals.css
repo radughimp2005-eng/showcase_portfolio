@@ -606,3 +606,34 @@ footer h4 {
   font-size: 600px;
 }
 
+.picoo-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 240px;
+  margin-bottom: 170px;
+  gap: 100px;
+}
+
+.picoo-home p {
+  font-size: 26px;
+  max-width: 420px;
+  font-family: var(--font-alata);
+  font-weight: 400;
+}
+
+.picoologotext {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.picoogif {
+  max-width: 750px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.picooimg {
+  width: 320px;
+}
