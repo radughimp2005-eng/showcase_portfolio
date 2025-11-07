@@ -34,6 +34,40 @@ export default function Picoo() {
           </div>
         </div>
       </section>
+      
+      <section className="column1picoo">
+        <div className="challenge-strategy-row">
+          <aside className="challenge_column">
+            <div className="heading-and-icon-row">
+              <img src="/images/challengeicon.png" alt="Challenge icon" />
+              <h2>The challenge</h2>
+            </div>
+            <ul>
+              <li>Teachers are too limited in resources to test childrens' knowledge</li>
+              <li>Teachers don’t have high technical skills</li>
+              <li>Picoo is known in a limited amount of schools in the Netherlands</li>
+              <li>Finish everything till deadline</li>
+            </ul>
+          </aside>
+          <aside className="strategy_column">
+            <div className="heading-and-icon-row">
+              <img src="/images/strategyicon.png" alt="Strategy icon" />
+              <h2>The strategy</h2>
+            </div>
+            <ul>
+              <li>Conducting a lot of research</li>
+              <li>Talk directly to users (teachers) and listen to their opinion</li>
+              <li>Designing a UI/UX friendly website</li>
+              <li>Choosing the best place to put it in existing website</li>
+              <li>Develop both app and website</li>
+            </ul>
+          </aside>
+        </div>
+        <div className="figma-redirection-text">
+            <p>If you need to see a bunch of iterations made on website prototype <a href="https://www.figma.com/design/CO27QrqCry2HPvK8FDJGsM/Picoo-prototype?node-id=0-1&t=GSdxOt4Q0qH0Cbqu-1" target="_blank">Click here! </a>
+            and you will be redirected to our Figma</p>
+          </div>
+      </section>
     </main>
     
     
