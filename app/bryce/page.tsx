@@ -6,7 +6,7 @@ export default function Bryce() {
           <img src="/images/owenbrycelogo.png" className = "brycelogo"alt="Owen bryce image" />
           <p>A full-scale marketing campaign for a rising folk/indie musician, establishing a consistent and recognizable brand presence across various platforms.</p>
         </div>
-        <img src="/images/bryce-new.gif"  className="picoogif" alt="Bryce gif" />
+        <img src="/images/bryce-v2.gif"  className="picoogif" alt="Bryce gif" />
       </section>
 
       <section className="row1">
