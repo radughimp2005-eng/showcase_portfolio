@@ -636,6 +636,7 @@ footer h4 {
 
 .picoo1logo {
   width: 320px;
+  max-width: 100%;
 }
 
 .row1 {
@@ -644,7 +645,8 @@ footer h4 {
   justify-content: center;
   background-color: #020202;
   gap: 100px;
-  
+  padding: 60px 20px;
+  flex-wrap: wrap;
 }
 
 .row1 img {
@@ -681,6 +683,7 @@ footer h4 {
 .row2 {
   display: flex;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .row2 h4 {
@@ -713,7 +716,7 @@ footer h4 {
   flex-direction: column;
   gap: 10px;
   width: 100%;
-  height: 700px;
+  min-height: 700px;
   background: linear-gradient(68deg, #000000 0%, #033118 58%, #000000 100%);
   z-index: -1;
 }
@@ -724,6 +727,8 @@ footer h4 {
   align-items: center;
   justify-content: center;
   margin-top: 170px;
+  flex-wrap: wrap;
+  padding-inline: 20px;
 }
 
 .challenge-strategy-row ul {
@@ -784,6 +789,7 @@ footer h4 {
   font-weight: 400;
   background-color: #004B14;
   max-width: 1030px;
+  width: 100%;
   border-radius: 20px;
   text-align: center;
   display: flex;
@@ -800,7 +806,7 @@ footer h4 {
   flex-direction: column;
   gap: 20px;
   width: 100%;
-  height: 1030px;
+  min-height: 1030px;
   background-color: #020202;
   z-index: -1;
 }
@@ -828,6 +834,9 @@ footer h4 {
   display: flex;
   gap: 80px;
   margin-left: -20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-inline: 20px;
 }
 
 .box1,
@@ -847,7 +856,7 @@ footer h4 {
 }
 
 .box1 {
-  margin-left: 200px;
+  margin-left: 0;
 }
 
 .box1 p,
@@ -881,6 +890,7 @@ footer h4 {
   padding: 30px;
   background-color: #001307;
   max-width: 1000px;
+  width: 100%;
   border-radius: 20px;
   font-size: 17px;
   margin-bottom: 20px;
@@ -1068,5 +1078,351 @@ footer h4 {
   font-size: 18px;
   font-style: italic;
   color: #A1A1A1;
+}
+
+/* --------------------- RESPONSIVE BREAKPOINTS --------------------- */
+
+@media (max-width: 1024px) {
+  .container-header {
+    margin: 30px 40px;
+    height: auto;
+  }
+
+  .navlinks {
+    font-size: 22px;
+    gap: 14px;
+  }
+
+  .homepage {
+    justify-content: center;
+    padding: 0 40px;
+    height: auto;
+    margin-top: 140px;
+  }
+
+  .blackcircle {
+    width: 360px;
+    height: 360px;
+    left: 40px;
+  }
+
+  .me {
+    top: 250px;
+    left: 170px;
+    max-width: 280px;
+  }
+
+  .recent-work {
+    margin-inline: 80px;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .three-projects {
+    flex-wrap: wrap;
+  }
+
+  /* Movie hero: allow wrapping on tablet */
+  .movie-home {
+    flex-wrap: wrap;
+    padding-inline: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-header {
+    margin: 20px;
+    padding-inline: 16px;
+    max-width: none;
+  }
+
+  header {
+    left: 0;
+  }
+
+  .navlinks {
+    font-size: 18px;
+    gap: 10px;
+  }
+
+  .homepage {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 160px;
+    padding: 0 24px 40px 24px;
+  }
+
+  .homequote {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .homequote2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .blackcircle,
+  .me {
+    position: static;
+    margin: 0 auto 20px auto;
+  }
+
+  .homepagetext {
+    text-align: center;
+    max-width: 500px;
+  }
+
+  .aboutme-section {
+    flex-direction: column;
+    padding-inline: 20px;
+    text-align: center;
+  }
+
+  .aboutme-skills {
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px 20px;
+    height: auto;
+  }
+
+  .recent-work {
+    margin-inline: 20px;
+    font-size: 46px;
+  }
+
+  .three-projects {
+    flex-direction: column;
+    align-items: stretch;
+    padding-inline: 20px;
+  }
+
+  .project1,
+  .project2,
+  .project3 {
+    width: 100%;
+  }
+
+  /* Home hero image/text spacing */
+  .blackcircle {
+    width: 260px;
+    height: 260px;
+  }
+
+  .me {
+    max-width: 220px;
+  }
+
+  /* Picoo page */
+  .picoo-home {
+    flex-direction: column;
+    margin-top: 180px;
+    margin-bottom: 80px;
+    gap: 40px;
+  }
+
+  .picoo-home p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .picoologotext {
+    align-items: center;
+  }
+
+  .row1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project_overview h1 {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .project_overview img {
+    max-width: 90%;
+    height: auto;
+    align-self: center;
+  }
+
+  .project_overview_description {
+    align-items: center;
+  }
+
+  .project_overview_description p {
+    padding-inline: 10px;
+    text-align: left;
+  }
+
+  .row2 {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .challenge-strategy-row {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+  }
+
+  .challenge_column,
+  .strategy_column {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .figma-redirection-text {
+    font-size: 18px;
+    margin-inline: 20px;
+  }
+
+  .impact-results-column h1 {
+    font-size: 46px;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .impact-results-text {
+    padding: 0 16px;
+    text-align: left;
+  }
+
+  .impact-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quotes-column {
+    margin-inline: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  /* Movie page */
+  .movie-home {
+    flex-direction: column;
+    margin-top: 180px;
+    margin-bottom: 80px;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .movie-home p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .project_overview-movie {
+    align-items: center;
+  }
+
+  .project_overview-movie h1 {
+    font-size: 40px;
+    margin-top: 80px;
+  }
+
+  .project_overview-movie img {
+    margin-left: 0;
+    margin-bottom: 40px;
+    max-width: 70%;
+  }
+
+  .project_overview_description-movie p {
+    padding-inline: 10px;
+    text-align: left;
+  }
+
+  .challenge-strategy-row-movie {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 120px;
+    padding-inline: 20px;
+  }
+
+  .movie-row {
+    flex-direction: column;
+    gap: 30px;
+    padding-inline: 20px;
+  }
+
+  .box1-movie,
+  .box2-movie,
+  .box3-movie {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navlinks {
+    font-size: 16px;
+  }
+
+  .gettoknowme-text {
+    font-size: 24px;
+  }
+
+  .homepage {
+    margin-top: 140px;
+    padding: 0 16px 32px 16px;
+  }
+
+  .homequote {
+    font-size: 26px;
+  }
+
+  .homequote2 {
+    font-size: 16px;
+  }
+
+  .blackcircle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .me {
+    max-width: 200px;
+  }
+
+  .picoo1logo {
+    width: 240px;
+  }
+
+  .project_overview h1 {
+    font-size: 32px;
+  }
+
+  .figma-redirection-text {
+    font-size: 16px;
+  }
+
+  .impact-results-column h1 {
+    font-size: 36px;
+  }
+
+  .impact-results-text {
+    font-size: 18px;
+  }
+
+  .box1 h3,
+  .box2 h3,
+  .box3 h3 {
+    font-size: 38px;
+  }
+
+  .box1 p,
+  .box2 p,
+  .box3 p {
+    font-size: 16px;
+  }
+
+  .movie-home p {
+    font-size: 18px;
+  }
 }
 

@@ -60,6 +60,9 @@ const aDLaM_Display = ADLaM_Display({
 export const metadata: Metadata = {
   title: "Radu Ghimp portfolio",
   description: "Created in NextJs",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
