@@ -939,6 +939,37 @@ footer h4 {
   max-width: 100%;
 }
 
+/* Picoo hero – mobile responsiveness */
+@media (max-width: 768px) {
+  .picoo-home {
+    flex-direction: column;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    gap: 40px;
+    padding-inline: 16px;
+    text-align: center;
+  }
+
+  .picoologotext {
+    align-items: center;
+    gap: 24px;
+  }
+
+  .picoo-home p {
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .picoogif {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .picoo1logo {
+    width: 240px;
+  }
+}
+
 .row1 {
   display: flex;
   align-items: center;
@@ -1009,6 +1040,16 @@ footer h4 {
   display: flex;
   flex-direction: column;
   gap: 35px;
+}
+
+@media (max-width: 768px) {
+  .client-role-timeline-tools h4 {
+    font-size: 13px;
+  }
+
+  .client-role-timeline-tools-description p {
+    font-size: 13px;
+  }
 }
 
 .column1picoo {
@@ -1095,6 +1136,13 @@ footer h4 {
   display: flex;
   align-self: center;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .figma-redirection-text {
+    font-size: 18px;
+    padding: 16px;
+  }
 }
 
 .figma-redirection-text a {
@@ -1200,6 +1248,59 @@ footer h4 {
   font-size: 18px;
   font-style: italic;
   color: #A1A1A1;
+}
+
+/* Picoo Impact & Results – mobile responsiveness */
+@media (max-width: 768px) {
+  .impact-results-column h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .impact-results-text {
+    font-size: 13px;
+    padding-inline: 16px;
+    text-align: center;
+  }
+
+  .impact-boxes {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-left: 0;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .box1 h3,
+  .box2 h3,
+  .box3 h3 {
+    font-size: 30px;
+    font-weight: 300;
+    -webkit-text-stroke: 1px white;
+  }
+
+  .box1 p,
+  .box2 p,
+  .box3 p {
+    font-size: 13px;
+    font-weight: 300;
+    -webkit-text-stroke: 0;
+  }
+
+  .quotes-column {
+    margin-inline: 16px;
+    padding: 20px;
+    font-size: 12px;
+  }
 }
 
 .brycelogotext {
@@ -1378,5 +1479,83 @@ footer h4 {
   font-size: 18px;
   font-style: italic;
   color: #A1A1A1;
+}
+
+/* Movie page – mobile responsiveness */
+@media (max-width: 768px) {
+  .movie-home {
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    padding-inline: 16px;
+    text-align: center;
+  }
+
+  .movie-home p {
+    font-size: 22px;
+    max-width: 100%;
+  }
+
+  .project_overview-movie {
+    align-items: center;
+    gap: 40px;
+  }
+
+  .project_overview-movie h1 {
+    margin-top: 80px;
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .project_overview-movie img {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .project_overview_description-movie {
+    gap: 32px;
+    padding-inline: 16px;
+  }
+
+  .project_overview_description-movie p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .challenge-strategy-row-movie {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 120px;
+    padding-inline: 16px;
+  }
+
+  .challenge-strategy-row-movie h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .challenge-strategy-row-movie ul {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .movie-row {
+    flex-direction: column;
+    gap: 24px;
+    padding-inline: 16px;
+  }
+
+  .box1-movie,
+  .box2-movie,
+  .box3-movie {
+    max-width: 100%;
+  }
+
+  .box3-movie p,
+  .box2-movie p,
+  .box1-movie p {
+    font-size: 16px;
+  }
 }
 
