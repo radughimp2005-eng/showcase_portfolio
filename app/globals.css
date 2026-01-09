@@ -868,6 +868,40 @@ footer h4 {
   transform: translateY(-5px);
 }
 
+/* Footer – mobile responsiveness */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding-inline: 16px;
+    text-align: center;
+  }
+
+  .logoandemail {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logoandemail .radulogo {
+    display: none;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+
+  footer h4 {
+    font-size: 22px;
+  }
+
+  .socials {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+}
+
 .hello {
   font-size: 600px;
 }
