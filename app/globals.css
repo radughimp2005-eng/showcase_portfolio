@@ -1050,6 +1050,11 @@ footer h4 {
   .client-role-timeline-tools-description p {
     font-size: 13px;
   }
+
+  .project_overview_description-movie .client-role-timeline-tools-description p,
+  .project_overview_description-bryce .client-role-timeline-tools-description p {
+    font-size: 10px;
+  }
 }
 
 .column1picoo {
