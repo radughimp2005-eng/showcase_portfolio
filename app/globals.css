@@ -510,6 +510,8 @@ header {
 
   .black-background3 {
     top: 3600px;
+    height: auto;        /* instead of 100% */
+    min-height: 950px;
   }
 }
 
@@ -710,6 +712,43 @@ header {
   background-color: #000000;
   border-radius: 20px;
   border: 1px solid white;
+}
+
+/* Start your project – mobile responsiveness */
+@media (max-width: 768px) {
+  .start-project-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 40px 16px 60px;
+  }
+
+  .start-project-section {
+    margin-top: 40px;
+    margin-left: 0;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .start-project-title {
+    font-size: 34px;
+    max-width: none;
+    margin-top: 30px;
+  }
+
+  .start-project-description {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .start-project-form {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    max-width: 420px;
+    padding: 16px 14px;
+  }
 }
 
 .short-input {
