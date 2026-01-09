@@ -52,6 +52,11 @@ header {
   .container-header {
     margin-inline: 20px;
   }
+
+  .homepage {
+    padding-right: 20px;
+    padding-left: 30px;
+  }
 }
 
 @media (max-width: 1020px) {
@@ -66,11 +71,95 @@ header {
   }
 }
 
+@media (max-width: 1400px) {
+  .frontend-title {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.homequote {
+  font-size: 37px;
+}
+
+.homequote2 {
+  font-size: 18px;
+}
+
+.gettoknowme-ig {
+  height: 65px;
+  width: 280px;
+}
+
+.gettoknowme-text {
+  font-size: 27px;
+  font-weight: 800;
+}
+
+.blackcircle {
+  width: 350px;
+  height: 350px;
+  left: 60px;
+}
+
+.me {
+  width: 150px;
+  height: auto;
+  top: 220px;
+  left: 155px;
+}
+}
+
+@media (min-width: 1400px) {
+
+  .frontend-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.homequote {
+  font-size: 50px;
+}
+
+.homequote2 {
+  font-size: 24px;
+}
+
+.gettoknowme-ig {
+  height: 80px;
+  width: 350px;
+}
+
+.gettoknowme-text {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.blackcircle {
+  width: 450px;
+  height: 450px;
+  left: 100px;
+}
+
+.me {
+  width: auto;
+  height: auto;
+  top: 240px;
+  left: 230px;
+}
+}
+
 @media (min-width: 1400px) {
   .container-header {
     margin-left: 300px;
   }
 } 
+
+@media (max-width: 1100px) {
+  .blackcircle,
+  .me {
+    display: none;
+  }
+}
 
 @media (min-width: 769px) {
 
@@ -82,6 +171,10 @@ header {
   font-weight: 700;
   color: #343434;
   font-family: var(--font-inter);
+}
+
+.homepage {
+  padding-right: 80px;
 }
 }
 
@@ -147,22 +240,15 @@ header {
 }
 
 .blackcircle {
-  width: 450px;
-  height: 450px;
   background-color: black;
   border-radius: 50%;
   position: absolute;
   top: 200px;
-  left: 100px;
   z-index: -1;
 }
 
 .me {
-  width: auto;
-  height: auto;
   position: absolute;
-  top: 240px;
-  left: 230px;
   z-index: 1;
 }
 
@@ -171,7 +257,6 @@ header {
   justify-content: flex-end; /* moves the content to the right */
   align-items: center;        /* centers it vertically (optional) */
   height: 100vh;              /* full viewport height */
-  padding-right: 80px;        /* space from right edge */
   margin-top: 100px;
 }
 
@@ -183,20 +268,17 @@ header {
 
 .frontend-title {
   color: #00FFFF;
-  font-size: 20px;
   font-weight: 500;
   margin-bottom: 35px;
 }
 
 .homequote {
-  font-size: 50px;
   font-family: var(--font-adamina);
   line-height: 1.3;
 }
 
 .homequote2 {
   font-family: var(--font-abhaya-libre);
-  font-size: 24px;
   margin: 35px 0px;
   max-width: 400px;
 }
@@ -208,8 +290,6 @@ header {
   gap: 5px;
   padding: 10px;
   background: linear-gradient(90deg, #4B6F4C 0%, #00332B 100%);
-  height: 70px;
-  width: 350px;
   border-radius: 50px;
   border: 1px solid white;
   margin-left: -10px;
@@ -223,7 +303,6 @@ header {
 }
 
 .gettoknowme-text {
-  font-size: 35px;
   font-family: var(--font-abhaya-libre);
   font-weight: 800;
   color: white;
