@@ -35,6 +35,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+
+## Description of the project
+
+This project represents myself as a specialist and gives an overview to HR employee about me. This showcase portfolio contains a short description of myself as a personality, recent work I have done at university both in groups and alone and a contact form for me to get back to you if you want to talk to me. By clicking on one of the projects you will be redirected to a new page containing all needed details and examples about that certain project you need.
+
 ## Project goals
 
 The main goal of this project is to introduce myself, my work and my skills to the company I would like to work for or doing an internship.
@@ -49,9 +54,6 @@ Also for "Start your project" form I used the "EmailJs" platform where I am able
 
 In the beginning I researched a lot to have an idea how my portfolio is going to look like, I chose 2 portfolios online I liked the most and combined them by using certain design and structure decisions from those portfolios plus adding my own style and made it in my own way. I looked what all portfolios have in common so I also add it to my portfolio and test it. I tested my product on all stages: while prototyping in figma and made some changes and while coding. After testing in all stages I made a lot of changes like changing the header gradient, adding and structuring the information regarding my projects, changed some animations for a better UI/UX perspective etc... For more detailed informarion about the process with visual examples visit my portflow from canvas - second Review.
 
-## Reflection on my learning process
-
-After making this portfolio I understood the basics of Nextjs - how to create a Nextjs project with basic features, how to organize the folders and files, how the navigation works etc... This is an important step towards frontend developing as Nextjs is often used in real life projects and learning it is now is going to help me in the future as I am planning to work in this direction in the future. However I'm not going to limit myself just to Nextjs as I'm planning to choose mobile apps development in semester 4 and learn rather the Swift for IOS or kotlin for Android haven't decided yet, so will see after semester 4 what I'm going to do next.
 
 ## Contact info
 
